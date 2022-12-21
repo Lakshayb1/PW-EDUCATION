@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.d1{}
+.d1a{float:left;}
+.d1b{float:left; margin-left:30%; text-shadow: 0 0 10px goldenrod ,0 0 45px lavenderblush ;
+text-decoration: !important;}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 13px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="d1"><!-- First Division -->
+<div class="d1a"><a href="001 Main Page of official website.html"><img src="https://static.theprint.in/wp-content/uploads/2022/08/Untitled-120220812083644.jpg?compress=true&quality=80&w=800&dpr=1.0" alter="Company logo" width=110 height=90></a></div>
+<div class="d1b"class="d1" style="color:"><h1>Welcome To PW</h1></div>
+
+<br>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+ <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+<br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+	<option value="dubai">Dubai</option>
+	<option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
